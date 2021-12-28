@@ -1,5 +1,5 @@
 
-for n in range(10000):
-    s = sum(i for i in range(1, n) if n % i == 0)
-    if s > n and sum(i for i in range(1, s) if s % i == 0) == n:
-        print(n, s)
+for X in range(10000):
+    S = sum(I for i in range(1, X) if X % I == 0)
+    if S > X and sum(I for I in range(1, S) if S % I == 0) == X:
+        print(X, S)
